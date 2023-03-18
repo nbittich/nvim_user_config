@@ -6,6 +6,16 @@ return {
 
     { import = "astrocommunity.colorscheme.catppuccin" },
     {
+        "neo-tree.nvim",
+        opts = {
+            filesystem = {
+                filtered_items = {
+                    visible = true,
+                },
+            }
+        }
+    },
+    {
         -- further customize the options set by the community
         "catppuccin",
         opts = {
