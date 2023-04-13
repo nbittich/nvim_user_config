@@ -13,13 +13,8 @@ return {
     return require("astronvim.utils").extend_tbl(opts, {
       defaults = {
         selection_caret = "  ",
-         file_ignore_patterns = {
-          "node_modules",
-          "data",
-          "docker-data",
-          "vendor",
-          ".git",
-          "target",
+        file_ignore_patterns = {
+
         },
         layout_config = {
           width = 0.90,
@@ -78,7 +73,7 @@ return {
     })
   end,
   config = function(...)
-    require "plugins.configs.telescope"(...)
+    require "plugins.configs.telescope" (...)
     local telescope = require "telescope"
     telescope.load_extension "file_browser"
     telescope.load_extension "projects"
