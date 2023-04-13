@@ -14,7 +14,6 @@ return {
       defaults = {
         selection_caret = "  ",
         file_ignore_patterns = {
-
         },
         layout_config = {
           width = 0.90,
