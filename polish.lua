@@ -7,6 +7,4 @@ return function()
       if config.root_dir and config.root_dir ~= "" then require("jdtls").start_or_attach(config) end
     end,
   })
-
-  
 end
