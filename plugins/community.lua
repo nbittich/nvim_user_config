@@ -8,6 +8,7 @@ return {
     {
         "neo-tree.nvim",
         opts = {
+         --   hijack_netrw_behavior = "disabled",
             filesystem = {
                 filtered_items = {
                     visible = true,
